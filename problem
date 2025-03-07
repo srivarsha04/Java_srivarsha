@@ -1,0 +1,16 @@
+import java.util.*;
+public class problem {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		String str1=sc.nextLine();
+		String str2=sc.nextLine();
+		int a=sc.nextInt();
+		char ch=sc.next().charAt(0);
+		System.out.println("Event Name:"+str1);
+		System.out.println("Event type:"+str2);
+		System.out.println("Expected count:"+a);
+		System.out.println("paid Entry:"+ch);
+		
+	}
+
+}
