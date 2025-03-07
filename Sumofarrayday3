@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Sumofarrayday3 {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of Array");
+		int n=sc.nextInt();//n->Size of the array
+		
+		int a[]=new int[n];
+		System.out.println("Enter the value for array");
+		int sum=0;
+		for(int i=0;i<n;i++) {
+			a[i]=sc.nextInt();
+			sum=sum+a[i];
+			}
+		System.out.println("Sum of the array is:" +sum);
+		
+
+}
+}
