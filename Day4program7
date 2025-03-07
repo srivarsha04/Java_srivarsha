@@ -1,0 +1,17 @@
+import java.util.*;
+public class Day4program7 {
+	public static void main(String[]args) {
+		Scanner s=new Scanner(System.in);
+		String s1=s.nextLine();
+		for(int i=0;i<s1.length();i++) {
+			if(s1.charAt(i)==s1.charAt(i+2)&&s1.charAt(i+1)==s1.charAt(i)) {
+				System.out.println("yes");
+			}
+			else {
+				System.out.println("No");
+			}
+		}
+		
+	}
+
+}
